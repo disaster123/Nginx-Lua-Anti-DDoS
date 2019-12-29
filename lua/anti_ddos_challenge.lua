@@ -45,7 +45,7 @@ Shared memory cache
 --[[
 This is a password that encrypts our puzzle and cookies unique to your sites and servers you should change this from the default.
 ]]
-local secret = " enigma" --Signature secret key --CHANGE ME FROM DEFAULT!
+local secret = " PHjhGSjdhf32523FF" --Signature secret key --CHANGE ME FROM DEFAULT!
 
 --[[
 Unique id to identify each individual user and machine trying to access your website IP address works well.
@@ -225,7 +225,7 @@ but if not I completely understand hence why I made it a option to remove them f
 1 = enabled
 2 = disabled
 ]]
-local credits = 1 --enabled by default
+local credits = 2 --enabled by default
 
 
 --[[
@@ -559,7 +559,7 @@ grant_access() --perform checks to see if user can access the site or if they wi
 Build HTML Template
 ]]
 
-local title = host .. [[ | Anti-DDoS Flood Protection and Firewall]]
+local title = host .. [[ | Under Attack Mode - checking your browser ]]
 
 --[[
 Javascript after setting cookie run xmlhttp GET request
